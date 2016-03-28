@@ -3,12 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.codeaffine</groupId>
-  <artifactId>junit5-conditional-ignore</artifactId>
+  <artifactId>junit5-experiments</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>junit5-conditional-ignore</name>
-  <url>http://maven.apache.org</url>
+  <name>JUnit5 Experiments</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,28 +55,6 @@
     <sourceDirectory>src/main/java</sourceDirectory>
     <testSourceDirectory>src/test/java</testSourceDirectory>
     <plugins>
-    
-        <plugin>
-  <groupId>com.soebes.maven.plugins</groupId>
-  <artifactId>maven-echo-plugin</artifactId>
-  <version>0.1</version>
-  <executions>
-    <execution>
-      <phase>package</phase>
-      <goals>
-        <goal>echo</goal>
-      </goals>
-    </execution>
-  </executions>
-  <configuration>
-    <echos>
-      <echo>VERSION::: ${project.version}</echo>
-    </echos>
-  </configuration>
-</plugin>
-    
-    
-    
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
